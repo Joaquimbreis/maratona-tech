@@ -1,0 +1,13 @@
+# Ambiente virtual e caches
+.venv/
+__pycache__/
+*.pyc
+
+# Credenciais (NUNCA versionar)
+.streamlit/secrets.toml
+*.json
+.env
+
+# Dados dos participantes
+data/*
+!data/.gitkeep
