@@ -100,7 +100,7 @@ def _barras_empilhadas(tab, titulo, cores, rotulos, percentual):
     totais = tab.sum(axis=1)
     x = [f"{g}<br>(n={int(totais[g])})" for g in tab.index]
     fig = go.Figure()
-    for cat in tab.columns:
+    for cat in tab.columns: 
         valores = tab[cat]
         nome = rotulos.get(cat, cat)
         if percentual:
